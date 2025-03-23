@@ -5,6 +5,6 @@ format:
 lint:
     pylint --disable=R,C script.py
 test:
-    python -m pytest tests/test_*.py
+    python -m pytest tests/test*.py
 
 all: install lint test format
